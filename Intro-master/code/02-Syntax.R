@@ -2,31 +2,31 @@
 # Code from 02-subsetting
 # library(ggplot2)
 
-x <- c(0, 0, 0, 0, 1, 0 ,0)
-y <- x
-y
+x <- c(0, 0, 0, 0, 1, 0 ,0) #concatentate
+y <- x #create new variable y
+y #print y
 
 # Subsetting
 
-vec <- c(6, 1, 3, 6, 10, 5)
+vec <- c(6, 1, 3, 6, 10, 5) #creating vector
 df <- data.frame(
   name = c("John", "Paul", "George", "Ringo"),
   birth = c(1940, 1942, 1943, 1940), 
   instrument = c("guitar", "bass", "guitar", "drums")
-)
+) #creating data frame
 
-df[2,3]
-df[c(2,4),c(2,3)]
-df[c(2,4),3]
+df[2,3] #print row 2 column 3 element
+df[c(2,4),c(2,3)] #print 2 different elements
+df[c(2,4),3] 
 
-1:4 
-df[1:4, 1:2]
+1:4 #print 1 through 4
+df[1:4, 1:2] 
 df[c(1,1,1,2,2), 1:3]
 
-vec[0]
+vec[0] #not a zero component so will not print element of vector 
 df[1:2, 0]
 
-vec[c(5, 6)]
+vec[c(5, 6)] #edit
 vec[-c(5, 6)]
 
 df[c(2:4), 2:3]
