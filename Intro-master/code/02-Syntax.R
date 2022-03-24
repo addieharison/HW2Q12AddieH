@@ -26,7 +26,7 @@ df[c(1,1,1,2,2), 1:3]
 vec[0] #not a zero component so will not print element of vector 
 df[1:2, 0]
 
-vec[c(5, 6)]
+vec[c(5, 6)] #edit
 vec[-c(5, 6)]
 
 df[c(2:4), 2:3]
